@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-phetsarath: 'Phetsarath OT', 'Noto Sans Lao', system-ui, -apple-system, sans-serif;
+  }
+
+  body {
+    background-color: #052114;
+    color: #f1f5f9;
+    font-family: 'Noto Sans Lao', 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+}
+
+/* Custom Phetsarath OT font utility matching requirement: Font Phetsarath OT, size 18, Bold, Black text */
+.font-phetsarath-menu {
+  font-family: 'Phetsarath OT', 'Noto Sans Lao', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: #000000;
+}
+
+.font-phetsarath {
+  font-family: 'Phetsarath OT', 'Noto Sans Lao', sans-serif;
+}
+
+/* Fix Leaflet map z-index and container sizing */
+.leaflet-container {
+  width: 100%;
+  height: 100%;
+  border-radius: 0.5rem;
+  z-index: 10;
+}

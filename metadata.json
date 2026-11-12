@@ -1,0 +1,6 @@
+{
+  "name": "Badminton Store Laos - POS & E-Commerce",
+  "description": "ລະບົບການຂາຍສິນຄ້າແບບ POS ແລະ E-commerce ຮ້ານຂາຍອຸປະກອນກິລາແບັດມິນຕັນ (Badminton Pro Store Laos)",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
